@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import downloaded materialize css for offline-->
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <title>Budgeting app | Materialize css</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+         form > a, p > a {
+            text-decoration: none;
+        }
+        body{
+            background-color: rgb(219, 226, 226);
+        }
+        .row{
+            background: white;
+            border-radius: 30px;
+            box-shadow: 12px 12px 22px grey;
+        }
+        img{
+            border-top-left-radius: 30px;
+            border-bottom-left-radius: 30px;
+        }
+        .btn{
+            border: none;
+            outline: none;
+            height: 50px;
+            width: 100%;
+            background-color: black;
+            color: white;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .btn:hover{
+            background-color: white;
+            border: 1px solid;
+            color: black;
+        }
+        .l7 img{
+            margin: 0;
+            padding: 0;
+            padding-bottom: 0%;
+            margin-bottom: 0%;
+            height: 100% !important;
+            width: 100% !important;
+        }
+        .responsive-img{
+            width: 100% !important;
+            height: 100% !important;
+        }
+        .Form1{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            margin-left: 5%;
+            margin-right: 5%;
+        }
+        .form{
+            margin-top: 5%;
+            margin-bottom: 5%;
+            padding: 3%;
+            padding-right: 5%;
+            width: 70%;
+
+        }
+
+        .l5{
+            padding-top: 5%;
+            padding-bottom: 5%;
+            padding-right: 5%;
+            padding-left: 5%;
+
+        }
+
+        .budget{
+            font-weight: 300%;
+            padding-top: 3%;
+        }
+
+        .row{
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+    </style>
+</head>
+<body>
+     <!-- Main section   -->
+    <section class="Form1">
+        <div class="container">
+            <div class="row no-padding">
+                <!-- Budget image section -->
+                <div class="col l6 no-padding">
+                    <img src="images/budg-3.jpg" class="responsive-img" alt="">
+                </div>
+                <div class="col l6">
+                    <h1 class="budget">Budgeting | Plan Your Purchases</h1>
+                    <h4>Sign into your account</h4>
+                    <form>
+                        <div class="form-row">
+                            <div class="input-field col l12">
+                                <input type="email" placeholder="Email Address" class=" form" required>
+                            </div>
+                        </div>
+                        <br><br><br>
+                        <div class="input-field form-row">
+                            <div class="col l12">
+                                <input type="email" placeholder="Email Address" class=" form " required>
+                            </div>
+                        </div>
+                        <br><br><br>
+                         <div class="input-field form-row">
+                            <div class="col l12">
+                                <input type="date" placeholder="Date Of Birth" class=" form " required>
+                            </div>
+                        </div>
+                        <br><br><br>
+                         <div class="input-field form-row">
+                            <div class="col l12">
+                                <input type="password" placeholder="Password" class=" form " required>
+                            </div>
+                        </div>
+                        <br><br><br>
+                         <div class="form-row">
+                            <div class="col l12">
+                                <button type="button" class="btn">Login</button>
+                            </div>
+                        </div>
+                        <br><br><br><br><br><br><br>
+                        <a href="#" style="font-size: 20px;">Forgot Password?</a> 
+                        <!-- linking to log in page-->
+                        <br><br><br>
+                        <p>Already have an account? <a href="index.html" style="font-size: 20px;">Login</a></p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
